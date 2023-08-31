@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aula 02 - HTML</title>
+    </head>
+    <body>
+        <div class="heading">
+            <h1>Exemplo de Texto Heading - Nível 1</h1>
+            <h2>Exemplo de Texto Heading - Nível 2</h2>
+            <h3>Exemplo de Texto Heading - Nível 3</h3>
+            <h4>Exemplo de Texto Heading - Nível 4</h4>
+            <h5>Exemplo de Texto Heading - Nível 5</h5>
+            <h6>Exemplo de Texto Heading - Nível 6</h6>
+        </div>
+
+        <hr>
+
+        <div class="espacos__quebralinha">
+            <p>Esse texto será
+                exibido todo na
+                mesma linha.
+            </p>
+            <p>Os     espaços extras   serão       ignorados!</p>
+            <p>Aqui está a primeira linha. <br> E aqui está a segunda.</p>
+        </div>
+
+        <hr> <!--tag utilizada para criar uma linha, usei só pra separar melhor os elementos na página sem criar muitos arquivos-->
+
+        <div class="caracteres"> <!--esses caracteres também possuem sua chamada de forma numérica, opte pelo qual você lembrar de forma mais fácil e rápida-->
+            <h1>Lista de caracteres especiais</h1>
+            <h3>Exemplo de entidade em HTML</h3>
+            <p>Escrevendo &nbsp;&nbsp;&nbsp; com &nbsp;&nbsp;&nbsp; espaços</p>
+            <p>Caractere menor do que: &lt;</p>
+            <p>Caractere mair do que: &#62;</p>
+            <p>Caractere copyright: &copy;</p>
+            <p>Caractere marca registrada: &reg;</p>
+        </div>
+
+        <hr>
+
+        <div class="lista"> <!--ol serve para acomodar a lista ORDENADA, já o li serve para abrir uma lista ORDENADA-->
+            <h1>Elemento de Listas Ordenadas</h1>
+            <p>Meus jogos favoritos <strong>(numerada normal)</strong>:</p> <!--só usei o strong por estética da página, não tinha necessidade-->
+            <ol>
+                <li>Valorant;</li>
+                <li>CS-GO;</li>
+                <li>The Last Of Us.</li>
+            </ol>
+            <p>Meus gêneros favoritos <strong>(numerada invertida com valor inicial 10)</strong>:</p>
+            <ol reversed start="10">
+                <li>Terror;</li>
+                <li>Ficção Científica;</li>
+                <li>Romance.</li>
+            </ol>
+            <p>Minhas comidas favoritas <strong>(alfabética maiúscula)</strong>:</p>
+            <ol type="A">
+                <li>Strogonoff;</li>
+                <li>Caldo verde;</li>
+                <li>Batata.</li>
+            </ol>
+            <p>Algumas coisas que eu gosto <strong>(alfabética minúscula)</strong>:</p>
+            <ol type="a">
+                <li>ARG's;</li>
+                <li>Jogos;</li>
+                <li>Música.</li>
+            </ol>
+
+            <h1>Elemento de Lista Não-Ordenadas</h1> <!--ul serve para acomodar a lista NÃO-ORDENADA, já o li serve para abrir uma lista-->
+            <ul>
+                <li>São Paulo;</li>
+                <li>Minas Gerais;</li>
+                <li>Rio de Janeiro.</li>
+            </ul>
+            <p>Cidades de São Paulo:</p>
+            <ul type="square">
+                <li>São Paulo;</li>
+                <li>Santo André;</li>
+                <li>Osasco.</li>
+            </ul>
+            <p>Estados do Brasil:</p>
+            <ul type="circle">
+                <li>São Paulo;</li>
+                <li>Minas Gerais;</li>
+                <li>Rio de Janeiro.</li>
+            </ul>
+            <p>Cores Primárias:</p>
+            <ul type="disc"> <!--disc já seria a estilização padrão por isso visualmente não há mudança-->
+                <li>Vermelho;</li>
+                <li>Verde;</li>
+                <li>Azul.</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div class="lista__descricao">
+            <h1>Elemento de Listas de Descrição</h1>
+            <dl> <!--lista de descrição-->
+                <dt>TCP</dt> <!--item na lista-->
+                <dd> <!--descrição do item-->
+                    Transmission Control Protocol é um protocolo usado junto com o protocolo de Internet(IP) para enviar dados na forma de unidade de mensagem, chamadas de pacotes, entre computadores pela Internet.
+                </dd>
+
+                <br>
+
+                <dt>IP</dt>
+                <dd>
+                    Internet Protocol é um protocolo pelo qual dados são enviados de um computador para outro na Internet. Cada computador na Internet é identificado por um endereço de IP único.
+                </dd>
+
+                <br>
+                
+                <dt>FTP</dt>
+                <dd>
+                    File Transfer Protocol é um protocolo usado para troca de arquivos entre computador na Internet.
+                </dd>
+
+                <br>
+
+                <dt>HTTP</dt>
+                <dd>
+                    Hypertext Transfer Protocol é um protocolo usado para trocas de arquivos de texto, imagens gráficas, som, vídeo e outros tipos de multimídias na rede.
+                </dd>
+            </dl>
+        </div>
+        
+        <hr>
+
+        <div class="lista__aninhada"> <!--são listas dentro de listas. O próprio elemento li já é um agrupamento dentro de outros agrupamentos-->
+            <ul>
+                <li>São Paulo</li>
+                <li>Minas Gerais
+                    <ul> <!--automaticamente a estilização ficou com o type circle-->
+                        <li>Belo Horizonte</li>
+                        <li>Tiradentes</li>
+                    </ul>
+                    <li>Rio de Janeiro</li>
+                </li>
+            </ul>
+
+            <h1>Listas Aninhadas</h1>
+            <p>Listas não ordenadas aninhadas:</p>
+            <ul>
+                <li>Azul</li>
+                <li>Vermelho
+                    <ul>
+                        <li>Verde</li>
+                        <li>Amarelo</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <p>Listas de tipos diferentes aninhadas:</p>
+            <ol>
+                <li>Preto</li>
+                <li>Roxo
+                    <ol type="a">
+                        <li>Marrom</li>
+                        <li>Rosa</li>
+                    </ol>
+                    <li>Laranja</li>
+                </li>
+            </ol>
+
+        </div>
+
+        <hr>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+    </body>
+</html>
