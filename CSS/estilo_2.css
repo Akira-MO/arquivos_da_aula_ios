@@ -1,0 +1,16 @@
+p {
+    text-indent: 35px;
+}
+
+.teste1 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.teste2 {
+    text-align: end;
+}
+
+h1 {
+    text-shadow: -2px 5px 1px #F00;
+}
