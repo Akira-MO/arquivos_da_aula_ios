@@ -1,16 +1,21 @@
+body {
+    background-color: cadetblue;
+}
+
 p {
     text-indent: 35px;
 }
 
 .teste1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifx ;
     font-weight: bold;
-    font-style: italic;
 }
 
 .teste2 {
-    text-align: end;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {
-    text-shadow: -2px 5px 1px #F00;
+    text-shadow: -2px 5px 1px orangered;
 }
