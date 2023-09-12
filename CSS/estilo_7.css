@@ -1,0 +1,17 @@
+h1, p {
+    color: white;
+}
+
+figure {
+    border: solid 2px red;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+}
+
+body {
+    background-image: url(../CSS/assets/pexels-francesco-ungaro-3324591.jpg);
+    background-size: cover;
+}

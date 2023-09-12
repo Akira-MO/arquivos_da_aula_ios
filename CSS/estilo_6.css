@@ -1,0 +1,29 @@
+* {
+    background-color: silver;
+    text-align: justify;
+}
+
+h1, h2 {
+    color: darkslategray;
+    text-align: center;
+}
+
+.bordaTotal {
+    border: dotted 5px black;
+}
+
+.bordaSup {
+    border-top: solid 2px;
+}
+
+.bordaInf {
+    border-bottom: dashed 2px;
+}
+
+.bordaDir {
+    border-right: solid 10px red;
+}
+
+.bordaEsq {
+    border-left: solid 10px red;
+}
