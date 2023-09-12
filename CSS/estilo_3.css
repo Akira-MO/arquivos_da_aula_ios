@@ -1,0 +1,17 @@
+h1 {
+    color: red;
+    font-style: italic;
+}
+
+p {
+        text-indent: 35px;
+        background-color: black;
+        color: whitesmoke;
+        text-align: center;
+}
+
+.paraMeio {
+    text-indent: 35px;
+    background-color: whitesmoke;
+    color: black;
+}
