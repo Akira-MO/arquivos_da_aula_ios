@@ -1,0 +1,20 @@
+/* Classe genérica */
+
+.conteudo {
+    color: darkcyan;
+    text-indent: 35px;
+}
+
+/* Delimitação de classe por seletor */
+
+.conteudo h2 {
+    color: slateblue;
+    background-color: black;
+}
+
+/* Chamada por ID */
+
+#titulo {
+    color: red;
+    font-style: italic;
+}
