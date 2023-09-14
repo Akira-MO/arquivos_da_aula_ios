@@ -1,0 +1,19 @@
+* {
+    font-size: 5px;
+}
+
+div {
+    height: 90vh;
+}
+
+div h2 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 4em;
+}
+
+ul li {
+    font-size: 3.6rem;
+}
