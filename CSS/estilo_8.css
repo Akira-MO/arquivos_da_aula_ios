@@ -1,0 +1,52 @@
+/* quando tiver foco
+input:focus {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+seleciona todos os links
+a:link {
+    text-decoration: none;
+    color: red;
+}
+
+seleciona todos os links visitados
+a:visited { 
+    color: green;
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    padding-top: 25px;
+    text-align: center;
+    height: 15vh;
+    background-color: #348888;
+}
+
+a {
+    margin: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:link {
+    color: #9EF8EE;
+}
+
+a:visited {
+    color: #9EF8EE;
+}
+
+a:hover {
+    background-color: #9EF8EE;
+    color: #348888;
+    padding: 15px;
+    border-radius: 10px;
+}
