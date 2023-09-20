@@ -1,0 +1,59 @@
+@charset "UTF-8"; /* At-Rules são declarações com instruções de como o CSS irá se comportar.
+O @charset define o conjunto de caracteres (codificação) usado pelo CSS. */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); /* Informa ao CSS para incluir uma folha de estilos externa, por exemplo. Nesse caso, estou importando uma fonte. */
+
+body {
+    background-color: darkslategray;
+    color: white;
+}
+
+h1, h2 {
+    color: darkolivegreen;
+    text-align: center;
+    border: dashed 2px gray;
+}
+
+h1:hover {
+    color: lightgreen;
+}
+
+h2:hover {
+    color: lightseagreen;
+}
+
+p {
+    text-indent: 35px;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* @media (max-width: 400px) {
+    img {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 800px) {
+    body {
+        background-color: darkblue;
+    }
+} */
+
+@media (min-width: 600px) and (max-width: 900px) {
+    body {
+        background-color: darkcyan;
+    }
+}
+
