@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.container {
+    height: 300px;
+    width: 300px;
+    display: grid;
+    border: 1px solid blueviolet;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#cx2 {
+    /* justify-self: center;
+    align-self: center;
+    place-self: center end; */
+    background-color: brown;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
