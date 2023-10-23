@@ -15,8 +15,15 @@ const mediaAp = 7;
 if(media >= mediaAp) {
     alert(`A média de ${aluno} foi ${media}, aprovado!`);
 }
+else if(media >= 6) {
+    alert(`O aluno ${aluno} foi Ap. Conselho, sua média foi de ${media}`);
+}
+else if(media >= 5) {
+    alert(`O aluno ${aluno} deverá fazer uma prova de recuperação, sua média foi de ${media}`);
+}
 else {
     alert(`A média de ${aluno} foi ${media}, reprovado!`);
 }
 
 alert("Fim do programa.");
+
